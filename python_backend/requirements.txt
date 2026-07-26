@@ -1,0 +1,69 @@
+# ===========================
+# Core LLM Framework
+# ===========================
+langchain
+langchain-core
+langchain-community
+langchain-openai
+langgraph
+
+# ===========================
+# OpenAI
+# ===========================
+openai
+tiktoken
+
+# ===========================
+# Search Tool
+# ===========================
+tavily-python
+
+# ===========================
+# Web Scraping
+# ===========================
+beautifulsoup4
+requests
+lxml
+
+# ===========================
+# Environment Variables
+# ===========================
+python-dotenv
+
+# ===========================
+# Validation
+# ===========================
+pydantic
+
+# ===========================
+# Async Support
+# ===========================
+aiohttp
+httpx
+
+# ===========================
+# Token Counting
+# ===========================
+tenacity
+
+# ===========================
+# Logging
+# ===========================
+rich
+
+# ===========================
+# Data Handling
+# ===========================
+pandas
+
+# ===========================
+# Optional Development
+# ===========================
+ipython
+jupyter
+notebook
+
+# ===========================
+# Type Checking
+# ===========================
+typing-extensions
