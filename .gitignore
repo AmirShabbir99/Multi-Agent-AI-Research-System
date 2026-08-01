@@ -1,0 +1,25 @@
+# Each service (ai-service/, server/, client/) has its own .gitignore for
+# stack-specific patterns. This one covers repo-wide concerns.
+
+# Never commit real secrets - this is exactly how the original .env leak happened.
+.env
+.env.local
+.env.*.local
+!*/.env.example
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# In case anyone runs a root-level script or tool
+node_modules/
+npm-debug.log*
+
+# Python bytecode / venvs, anywhere in the tree
+__pycache__/
+*.pyc
+.venv/
+venv/

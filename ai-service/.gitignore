@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# runtime data - never commit local vector indexes, sqlite dbs, or logs
+data/
+logs/
+*.sqlite3
+*.faiss
+
+.env
+.env.local
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
